@@ -1,0 +1,124 @@
+/* Aumentar tamaño de los encabezados principales */
+h1 {
+    font-size: 3.5rem !important;  /* Título principal más grande */
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+/* Títulos secundarios, como 'APIs Disponibles' */
+h2 {
+    font-size: 2.5rem !important;  /* Aumentar tamaño de 'APIs Disponibles' */
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+/* Títulos de las APIs */
+h3 {
+    font-size: 1.8rem !important;  /* Títulos de cada API más grandes */
+    font-weight: bold;
+    color: #333;  /* Color oscuro para los títulos */
+    margin-top: 15px;
+}
+
+/* Asegurarnos de que los encabezados no se vean demasiado pequeños en dispositivos móviles */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.5rem !important;  /* Reducir tamaño de título en dispositivos pequeños */
+    }
+
+    h2 {
+        font-size: 2rem !important;  /* Reducir tamaño de 'APIs Disponibles' */
+    }
+
+    h3 {
+        font-size: 1.5rem !important;  /* Reducir los títulos de las APIs */
+    }
+}
+
+/* Mejorar todos los párrafos de texto en general */
+p {
+    font-size: 1.2rem !important;  /* Aumentar tamaño de todos los párrafos */
+    line-height: 1.6 !important;  /* Mejor espaciado entre líneas */
+    color: #333 !important;  /* Color más oscuro para mejor legibilidad */
+    margin-bottom: 1rem !important;  /* Espaciado inferior consistente */
+}
+
+p.lead {
+    /* Estilo para la frase introductoria */
+    font-size: 1.5rem !important;  /* Aumentar el tamaño de la fuente */
+    font-weight: 600 !important;  /* Hacer la fuente un poco más gruesa */
+    color: #555 !important;  /* Color gris más oscuro */
+    margin-top: 20px !important;  /* Agregar margen superior */
+    line-height: 1.5 !important;  /* Mejorar la altura de la línea para mayor legibilidad */
+    text-align: center !important;  /* Centrar el texto */
+    max-width: 900px !important;  /* Limitar el ancho para mejorar la presentación */
+    margin-left: auto !important;
+    margin-right: auto !important;  /* Centrar el texto */
+}
+
+.card-text {
+    font-size: 1.2rem !important;  /* Descripción de las APIs más grande */
+    color: #444 !important;  /* Color más oscuro para mejor legibilidad */
+    margin-bottom: 20px !important;
+}
+
+/* Mejorar la legibilidad de las listas */
+ul, ol {
+    font-size: 1.2rem !important;  /* Aumentar tamaño de las listas */
+    line-height: 1.8 !important;  /* Mayor espaciado entre elementos */
+    color: #333 !important;  /* Color más oscuro para mejor legibilidad */
+}
+
+ul li, ol li {
+    margin-bottom: 0.7rem !important;  /* Espacio entre elementos de lista */
+}
+
+/* Asegurar que los botones de la API sean visibles */
+.btn-primary {
+    font-size: 1.1rem !important;  /* Botones un poco más grandes */
+    padding: 12px 25px !important;
+    border-radius: 30px !important;
+    font-weight: 600 !important;  /* Texto del botón más visible */
+}
+
+/* Mejorar la visibilidad del texto en las tarjetas */
+.card-body {
+    padding: 1.5rem 2rem !important;  /* Más espacio para respirar dentro de las tarjetas */
+}
+
+/* Aumentar visibilidad del texto del footer si existe */
+footer p, 
+footer a, 
+footer span {
+    font-size: 1.1rem !important;  /* Texto del footer más grande */
+    line-height: 1.6 !important;
+}
+
+/* Mejorar la visibilidad de campos de formulario si existen */
+input, 
+select, 
+textarea, 
+.form-control {
+    font-size: 1.1rem !important;
+    padding: 0.75rem 1rem !important;
+}
+
+/* Etiquetas de formulario más visibles */
+label {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Asegurar buen contraste para enlaces */
+a {
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
